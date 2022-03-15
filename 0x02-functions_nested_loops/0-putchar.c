@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * print_alphabet - abcd
- * Description: print lowercase alphabet
- * Return: void.
+ * main - entry point.
+ * Description: program starts and ends here.
+ * Return: 0 on success.
  */
-
-void print_alphabet(void)
+int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	char text[7] = "_putchar";
 	int i;
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(alphabet[i]);
+		_putchar(text[i]);
 	}
 	_putchar('\n');
+	return (0);
 }
